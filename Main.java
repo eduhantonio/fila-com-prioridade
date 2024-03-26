@@ -42,7 +42,7 @@ public class Main
 	                System.out.println("Retirar um paciente da fila");
 	                break;
 	            case 4:
-	                fila.inserirPaciente();
+	                fila.imprimirDados();
 	                break;
 	        }
 	        
