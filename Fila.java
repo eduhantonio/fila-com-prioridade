@@ -58,12 +58,13 @@ public class Fila {
             
             // Já existe (pelo menos) um Amarelo na Fila, devo procurar o último Amarelo
             else {
-                novoPaciente = inicio.proximo;
-                inicio = novoPaciente;
-            
-                while (auxiliar.proximo != null) {
+                // Se tem um amarelo, então "inicio = amarelo // auxiliar = inicio"
+                // Logo devemos procurar o último amarelo
+                while(auxiliar.proximo != null && auxiliar.proximo.paciente.corDoCartao.equals("Amarelo")){
                     auxiliar = auxiliar.proximo;
-                } novoPaciente = inicio;
+                } 
+                novoPaciente.proximo = auxiliar.proximo;
+                auxiliar.proximo = novoPaciente;
             }
         }
     }
