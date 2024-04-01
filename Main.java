@@ -39,7 +39,7 @@ public class Main
 	                fila.inserirPaciente(p2);
 	                break;
 	            case 3:
-	                System.out.println("Retirar um paciente da fila");
+	                fila.retirarPaciente();
 	                break;
 	            case 4:
 	                fila.imprimirDados();
