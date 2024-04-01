@@ -10,14 +10,14 @@ public class Main
 	    
 	    do {
 	        System.out.println("=============================");
-	        System.out.println("FATESUS - Oque deseja fazer ?");
+	        System.out.println("SUS FATECANO - Oque deseja ?");
 	        System.out.println("=============================");
 	        
-	        System.out.println("1) Inserir paciente 'Cartão Verde'");
-	        System.out.println("2) Inserir paciente 'Cartão Amarelo'");
-	        System.out.println("3) Retirar paciente da Fila");
-	        System.out.println("4) Mostrar a Fila");
-	        System.out.println("0) Encerrar o Programa");
+	        System.out.println("1 • Inserir paciente 'Cartão Verde'");
+	        System.out.println("2 • Inserir paciente 'Cartão Amarelo'");
+	        System.out.println("3 • Retirar paciente da Fila");
+	        System.out.println("4 • Mostrar a Fila");
+	        System.out.println("0 • Encerrar o Programa");
 	        
 	        System.out.print("Opção: ");
 	        resposta = sc.nextInt();
