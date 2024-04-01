@@ -69,6 +69,16 @@ public class Fila {
         }
     }
 
+    public No retirarPaciente () {
+        No aux = inicio;
+        if (listaVazia()) {
+            System.out.println("Fila vazia!");
+        } else {
+            inicio = inicio.proximo;
+        }
+        return aux;
+    }
+
   //---------------------------------------------------------------------------------------------------//  
     
     public void imprimirDados() {
